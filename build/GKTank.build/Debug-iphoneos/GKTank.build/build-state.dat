@@ -1,0 +1,526 @@
+TGKTank
+v7
+r0
+t324675897.745672
+cCheck dependencies
+cCpResource build/Debug-iphoneos/GKTank.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Info.plist" GKTank-Info.plist
+cCompileXIB "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib"
+cCompileXIB "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib"
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redtank.png" redtank.png
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tankbackground.png" tankbackground.png
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluemissile.png" bluemissile.png
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluetank.png" bluetank.png
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redmissile.png" redmissile.png
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tank.png" tank.png
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockh.png" blockh.png
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockv.png" blockv.png
+cCpResource build/Debug-iphoneos/GKTank.app/level1.xml level1.xml
+cCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Default.png" Default.png
+cProcessPCH /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch.gch GKTank_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/main.o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankAppDelegate.o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankViewController.o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank" normal armv6
+cGenerateDSYMFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app.dSYM" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank"
+cProcessProductPackaging "/Users/sdrazin/Library/MobileDevice/Provisioning Profiles/2B6FDD5D-6665-4C73-BA9C-907987B9DDC4.mobileprovision" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/embedded.mobileprovision"
+cTouch "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent"
+cCodeSign "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004CC129A40000000000289BB0
+t1287727524
+s2661296
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004CC129850000000000000348
+t1287727493
+s840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.h
+c000000004A29B6650000000000000DF2
+t1244247653
+s3570
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.m
+c000000004A29B6650000000000000EDE
+t1244247653
+s3806
+i"TankAppDelegate.h"
+i"TankViewController.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.h
+c000000004A29B665000000000000172F
+t1244247653
+s5935
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m
+c000000004A29B6650000000000006C64
+t1244247653
+s27748
+i"TankViewController.h"
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Default.png
+c000000004A29B665000000000000CC97
+t1244247653
+s52375
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/GKTank_Prefix.pch
+c000000004A29B66500000000000000B1
+t1244247653
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib
+c000000004A29B6650000000000002521
+t1244247653
+s9505
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockh.png
+c000000004A29B665000000000000125D
+t1244247653
+s4701
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockv.png
+c000000004A29B6650000000000001332
+t1244247653
+s4914
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluemissile.png
+c000000004A29B6650000000000000C10
+t1244247653
+s3088
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluetank.png
+c000000004A29B6650000000000001497
+t1244247653
+s5271
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app
+t1302983097
+s714
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app.dSYM
+t1302983096
+s102
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Default.png
+t1302983094
+s31845
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank
+t1302983096
+s49488
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Info.plist
+t1302983089
+s839
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/MainWindow.nib
+t1302983092
+s1117
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/PkgInfo
+t1302983089
+s8
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/ResourceRules.plist
+t1302983089
+s485
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockh.png
+t1302983093
+s5022
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockv.png
+t1302983093
+s6262
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluemissile.png
+t1302983093
+s3255
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluetank.png
+t1302983093
+s5563
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/embedded.mobileprovision
+t1302983096
+s7180
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/level1.xml
+t1302983093
+s661
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redmissile.png
+t1302983093
+s3240
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redtank.png
+t1302983093
+s5518
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tank.png
+t1302983093
+s4544
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tankViewController.nib
+t1302983092
+s2532
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tankbackground.png
+t1302983093
+s31845
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent
+t1302983096
+s420
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/GKTank.LinkFileList
+c000000004DA9F1B100000000000001BA
+t1302983089
+s442
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankAppDelegate.o
+t1302983095
+s52312
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankViewController.o
+t1302983096
+s107632
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/main.o
+t1302983095
+s6500
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/level1.xml
+c000000004A29B6650000000000000295
+t1244247653
+s661
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/main.m
+c000000004A29B6650000000000000D8B
+t1244247653
+s3467
+i<UIKit/UIKit.h>
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redmissile.png
+c000000004A29B6650000000000000C0F
+t1244247653
+s3087
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redtank.png
+c000000004A29B6650000000000001421
+t1244247653
+s5153
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tank.png
+c000000004A29B665000000000000100F
+t1244247653
+s4111
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib
+c000000004A29B665000000000000473C
+t1244247653
+s18236
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankbackground.png
+c000000004A29B665000000000000CC97
+t1244247653
+s52375
+
+N/Users/sdrazin/Library/MobileDevice/Provisioning Profiles/2B6FDD5D-6665-4C73-BA9C-907987B9DDC4.mobileprovision
+c000000004D6DAAFE0000000000001C0C
+t1299032830
+s7180
+
+N/var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch.gch
+t1302983095
+s9983704
+
+NGKTank-Info.plist
+c000000004A29B66500000000000003A2
+t1244247653
+s930
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324675888#324675889#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"
+s324675896.914099
+e324675897.745376
+r1
+xCodeSign
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/GKTank.app324675896#324675897#0(0"0(0#0#95"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app8606149184#749"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Sam Drazin (7Q586RQXV6)" "--resource-rules=/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/ResourceRules.plist" --entitlements "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"0#
+
+CCompileC build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankAppDelegate.o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324675895.671570
+e324675895.959311
+r1
+xCompileC
+xbuild/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankAppDelegate.o
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.m324675895#324675895#0(0"0(0#0#89"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.m8606598432#2031"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-generated-files.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-own-target-headers.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-all-target-headers.hmap" -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-project-headers.hmap" "-F/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/include" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources/armv6" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources" -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch -c "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankAppDelegate.m" -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankAppDelegate.o"0#
+
+CCompileC build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankViewController.o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324675895.880893
+e324675896.151086
+r1
+xCompileC
+xbuild/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankViewController.o
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m: In function '-[TankViewController parseXMLFileAtURL:parseError:]':
+o/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m:754: warning: class 'TankViewController' does not implement the 'NSXMLParserDelegate' protocol
+lSLF07#2@100"Compile /Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m324675895#324675896#0(349"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m: In function '-[TankViewController parseXMLFileAtURL:parseError:]':/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m:754: warning: class 'TankViewController' does not implement the 'NSXMLParserDelegate' protocol1(22@80"Class 'TankViewController' does not implement the 'NSXMLParserDelegate' protocol324675896#161#188#0(6@92"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m265940453#754#0#754#0#45"class '*' does not implement the '*' protocol0(0#0#92"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m8607818496#2037"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-generated-files.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-own-target-headers.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-all-target-headers.hmap" -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-project-headers.hmap" "-F/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/include" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources/armv6" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources" -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch -c "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Classes/TankViewController.m" -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/TankViewController.o"0#
+
+CCompileC build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/main.o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324675895.670198
+e324675895.880790
+r1
+xCompileC
+xbuild/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/main.o
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/main.m324675895#324675895#0(0"0(0#0#70"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/main.m8608178816#2001"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-generated-files.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-own-target-headers.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-all-target-headers.hmap" -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-project-headers.hmap" "-F/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/include" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources/armv6" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources" -include /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch -c "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/main.m" -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/main.o"0#
+
+CCompileXIB "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib"
+s324675889.421730
+e324675892.988113
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib324675889#324675892#0(0"0(0#0#78"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib8604824416#622"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/MainWindow.nib" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib"
+s324675889.422934
+e324675893.075712
+r1
+xCompileXIB
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@33"CompileXIB tankViewController.xib324675889#324675893#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#86"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib8603212800#638"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tankViewController.nib" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Default.png" Default.png
+s324675893.761112
+e324675894.127854
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Default.png
+xDefault.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/GKTank.app/Default.png Default.png324675893#324675894#0(0"0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Default.png8603795808#642"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Default.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Default.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockh.png" blockh.png
+s324675893.698529
+e324675893.729397
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockh.png
+xblockh.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/GKTank.app/blockh.png blockh.png324675893#324675893#0(0"0(0#0#74"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockh.png8604462432#640"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockh.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockh.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockv.png" blockv.png
+s324675893.729495
+e324675893.760279
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockv.png
+xblockv.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/GKTank.app/blockv.png blockv.png324675893#324675893#0(0"0(0#0#74"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockv.png8602388800#640"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockv.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/blockv.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluemissile.png" bluemissile.png
+s324675893.580901
+e324675893.608656
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluemissile.png
+xbluemissile.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/GKTank.app/bluemissile.png bluemissile.png324675893#324675893#0(0"0(0#0#79"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluemissile.png8606428064#650"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluemissile.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluemissile.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluetank.png" bluetank.png
+s324675893.608757
+e324675893.640515
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluetank.png
+xbluetank.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/GKTank.app/bluetank.png bluetank.png324675893#324675893#0(0"0(0#0#76"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluetank.png8606122112#644"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluetank.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/bluetank.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redmissile.png" redmissile.png
+s324675893.640609
+e324675893.664786
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redmissile.png
+xredmissile.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/GKTank.app/redmissile.png redmissile.png324675893#324675893#0(0"0(0#0#78"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redmissile.png8605626336#648"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redmissile.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redmissile.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redtank.png" redtank.png
+s324675892.988316
+e324675893.580802
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redtank.png
+xredtank.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/GKTank.app/redtank.png redtank.png324675892#324675893#0(0"0(0#0#75"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redtank.png8608081568#642"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redtank.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/redtank.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tank.png" tank.png
+s324675893.664885
+e324675893.698426
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tank.png
+xtank.png
+lSLF07#2@61"CopyPNGFile build/Debug-iphoneos/GKTank.app/tank.png tank.png324675893#324675893#0(0"0(0#0#72"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tank.png8605324768#636"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tank.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tank.png"0#
+
+CCopyPNGFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tankbackground.png" tankbackground.png
+s324675893.075829
+e324675893.957517
+r1
+xCopyPNGFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tankbackground.png
+xtankbackground.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/GKTank.app/tankbackground.png tankbackground.png324675893#324675893#0(0"0(0#0#82"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankbackground.png8606709984#656"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankbackground.png" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/tankbackground.png"0#
+
+CCpResource build/Debug-iphoneos/GKTank.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s324675889.315835
+e324675889.421600
+r1
+xCpResource
+xbuild/Debug-iphoneos/GKTank.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist324675889#324675889#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist4913266056747185152#547"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"0#
+
+CCpResource build/Debug-iphoneos/GKTank.app/level1.xml level1.xml
+s324675893.760375
+e324675893.784783
+r1
+xCpResource
+xbuild/Debug-iphoneos/GKTank.app/level1.xml
+xlevel1.xml
+lSLF07#2@15"Copy level1.xml324675893#324675893#0(0"0(0#0#74"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/level1.xml8608395744#534"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/level1.xml" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"0#
+
+CGenerateDSYMFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app.dSYM" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank"
+s324675896.766901
+e324675896.861594
+r1
+xGenerateDSYMFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app.dSYM
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/GKTank.app.dSYM build/Debug-iphoneos/GKTank.app/GKTank324675896#324675896#0(0"0(0#0#102"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank8606629216#440"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank" -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app.dSYM"0#
+
+CLd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank" normal armv6
+s324675896.151196
+e324675896.766784
+r1
+xLd
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank
+xnormal
+xarmv6
+lSLF07#2@107"Link /Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank324675896#324675896#0(0"0(0#0#0"8608078656#971"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos" "-F/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos" -filelist "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/Objects-normal/armv6/GKTank.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/GKTank"0#
+
+CProcessInfoPlistFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Info.plist" GKTank-Info.plist
+s324675889.382957
+e324675889.396500
+r1
+xProcessInfoPlistFile
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Info.plist
+xGKTank-Info.plist
+lSLF07#2@25"Process GKTank-Info.plist324675889#324675889#0(0"0(0#0#81"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/GKTank-Info.plist8606358208#666"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GKTank-Info.plist -genpkginfo "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/ResourceRules.plist" -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/Info.plist"0#
+
+CProcessPCH /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch.gch GKTank_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324675894.128076
+e324675895.669990
+r1
+xProcessPCH
+x/var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch.gch
+xGKTank_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile GKTank_Prefix.pch324675894#324675895#0(0"0(0#0#81"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/GKTank_Prefix.pch8608041216#1873"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-generated-files.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-own-target-headers.hmap" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-all-target-headers.hmap" -iquote "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank-project-headers.hmap" "-F/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/include" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources/armv6" "-I/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/DerivedSources" -c "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/GKTank_Prefix.pch" -o /var/folders/ZG/ZGUTEIKmHPG57f4zi+1iRk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GKTank_Prefix-fwuwwjophqxvktbotvlsupzvdkat/GKTank_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/sdrazin/Library/MobileDevice/Provisioning Profiles/2B6FDD5D-6665-4C73-BA9C-907987B9DDC4.mobileprovision" "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/embedded.mobileprovision"
+s324675896.861702
+e324675896.880788
+r1
+xProcessProductPackaging
+x/Users/sdrazin/Library/MobileDevice/Provisioning Profiles/2B6FDD5D-6665-4C73-BA9C-907987B9DDC4.mobileprovision
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/sdrazin/Library/MobileDevice/Provisioning Profiles/2B6FDD5D-6665-4C73-BA9C-907987B9DDC4.mobileprovision" build/Debug-iphoneos/GKTank.app/embedded.mobileprovision324675896#324675896#0(0"0(0#0#120"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/embedded.mobileprovision8606377344#478"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sdrazin/Library/MobileDevice/Provisioning Profiles/2B6FDD5D-6665-4C73-BA9C-907987B9DDC4.mobileprovision" -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent"
+s324675896.896597
+e324675896.914025
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent324675896#324675896#0(0"0(0#0#123"/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent8605473856#483"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/GKTank.build/Debug-iphoneos/GKTank.build/GKTank.xcent"0#
+
+CTouch "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"
+s324675896.880886
+e324675896.896467
+r1
+xTouch
+x/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app
+lSLF07#2@101"Touch /Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app324675896#324675896#0(0"0(0#0#0"8606055072#317"    cd "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug-iphoneos/GKTank.app"0#
+

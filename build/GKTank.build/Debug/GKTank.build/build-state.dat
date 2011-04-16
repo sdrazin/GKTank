@@ -1,0 +1,171 @@
+TGKTank
+v7
+r1
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/Default.png
+c000000004A29B665000000000000CC97
+t1244247653
+s52375
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib
+c000000004A29B6650000000000002521
+t1244247653
+s9505
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockh.png
+c000000004A29B665000000000000125D
+t1244247653
+s4701
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/blockv.png
+c000000004A29B6650000000000001332
+t1244247653
+s4914
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluemissile.png
+c000000004A29B6650000000000000C10
+t1244247653
+s3088
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/bluetank.png
+c000000004A29B6650000000000001497
+t1244247653
+s5271
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/blockh.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/blockv.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/bluemissile.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/bluetank.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/level1.xml
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/redmissile.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/redtank.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/tank.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/tankViewController.nib
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Resources/tankbackground.png
+t2
+s0
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/level1.xml
+c000000004A29B6650000000000000295
+t1244247653
+s661
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redmissile.png
+c000000004A29B6650000000000000C0F
+t1244247653
+s3087
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/redtank.png
+c000000004A29B6650000000000001421
+t1244247653
+s5153
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tank.png
+c000000004A29B665000000000000100F
+t1244247653
+s4111
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib
+c000000004A29B665000000000000473C
+t1244247653
+s18236
+
+N/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankbackground.png
+c000000004A29B665000000000000CC97
+t1244247653
+s52375
+
+NGKTank-Info.plist
+c000000004A29B66500000000000003A2
+t1244247653
+s930
+
+CCompileXIB "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/tankViewController.xib"
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/blockh.png blockh.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/blockv.png blockv.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/bluemissile.png bluemissile.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/bluetank.png bluetank.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/level1.xml level1.xml
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/redmissile.png redmissile.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/redtank.png redtank.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/tank.png tank.png
+r0
+
+CCpResource build/Debug/GKTank.app/Contents/Resources/tankbackground.png tankbackground.png
+r0
+
+CProcessInfoPlistFile "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app/Contents/Info.plist" GKTank-Info.plist
+r0
+
+CTouch "/Users/sdrazin/Documents/Programs/iPhone/Sample Projects/GKTank/build/Debug/GKTank.app"
+r0
+
